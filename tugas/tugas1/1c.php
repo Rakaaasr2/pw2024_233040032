@@ -6,13 +6,23 @@
     <title>tugas1c.php</title>
 </head>
 <body>
-    <style>
 
-        .allkotak {
-            display:flex;
-            flex-direction;
-        }
-        
+<div class="row">
+    <div class="kotak">1</div>
+</div>
+<div class="row">
+    <div class="kotak">2</div>
+    <div class="kotak">2</div>
+</div>
+<div class="row">
+    <div class="kotak">3</div>
+    <div class="kotak">3</div>
+    <div class="kotak">3</div>
+</div>
+</body>
+
+<style>
+s
         .kotak {
             width: 50px;
             height: 50px;
@@ -29,18 +39,4 @@
             background-color:#E74C3C;
         }
     </style>
-</body>
-
-<div class="row">
-    <div class="kotak">1</div>
-</div>
-<div class="row">
-    <div class="kotak">2</div>
-    <div class="kotak">2</div>
-</div>
-<div class="row">
-    <div class="kotak">3</div>
-    <div class="kotak">3</div>
-    <div class="kotak">3</div>
-</div>
 </html>
